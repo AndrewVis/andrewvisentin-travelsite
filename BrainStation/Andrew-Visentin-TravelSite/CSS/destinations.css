@@ -50,7 +50,7 @@
   padding-left: 1rem;
   padding-right: 2rem;
 }
-.schedule-card-title {
+.schedule-day__title {
   text-align: center;
   font-weight: 900;
   border-bottom: 3px solid black;
