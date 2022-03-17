@@ -14,13 +14,13 @@
   background-position: center;
 }
 .background-hawaii {
-  background-image: url(/assets/images/hawaii.jpg);
+  background-image: url(../assets/images/hawaii.jpg);
 }
 .background-iceland {
-  background-image: url(/assets/images/iceland.jpg);
+  background-image: url(../assets/images/iceland.jpg);
 }
 .background-greece {
-  background-image: url(/assets/images/greece.jpg);
+  background-image: url(../assets/images/greece.jpg);
 }
 .destination-title {
   color: white;

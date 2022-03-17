@@ -18,11 +18,17 @@ html {
   justify-content: space-between;
 }
 
+.nav__menu {
+  color: #335576;
+}
+
 .nav-bar-title-link {
   text-decoration: none;
+  color: #335576;
 }
 .nav-bar__link {
   text-decoration: none;
+  color: #335576;
 }
 
 .nav-bar-list {
