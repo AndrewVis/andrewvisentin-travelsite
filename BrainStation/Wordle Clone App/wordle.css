@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-Family: "Poppins", Sans-Serif;
+  font-Size: 0.875rem;
+  margin: 0;
+  padding: 0;
+  background-color: #E6E6E6;
+  color: #055A5B;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-Family: "Abril Fatface", Cursive;
+}
+.header__title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: 0.313rem;
+  padding: 1rem;
+  border-bottom: 1px solid #055A5B;
+  border-top: 1px solid #BBAB9B;
+}
+
+.board {
+  width: 21.875rem;
+  height: 26.25rem;
+  margin: 0 auto;
+  margin-top: 0.188rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.board__container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.tile {
+  /* Box */
+  border: 2px solid #BBAB9B;
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: 0.156rem;
+  border-radius: 0.313rem;
+  /* Text */
+  color: #055A5B;
+  font-size: 2.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-Family: "Poppins", Sans-Serif;
+  font-Size: 0.875rem;
+}
+.display__text {
+  padding: 1rem;
+  color: red;
+  border-top: 1px solid #055A5B;
+  border-bottom: 1px solid #BBAB9B;
+  font-Family: "Abril Fatface", Cursive;
+}
+
+.keyboard__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard-row {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 48rem) {
+  .keyboard-row {
+    width: 40rem;
+  }
+}
+
+.key-tile {
+  width: 1.75rem;
+  height: 2rem;
+  margin: 1px;
+  border: 1px solid #055A5B;
+  background-color: #E6E6E6;
+  border-radius: 0.313rem;
+  /* Text */
+  font-size: 0.625rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #055A5B;
+  font-weight: 800;
+}
+@media (min-width: 48rem) {
+  .key-tile {
+    width: 2.25rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+  }
+}
+
+.enter-key-tile {
+  width: 5rem;
+  height: 2rem;
+  margin: 1px;
+  border: 1px solid #055A5B;
+  background-color: #E6E6E6;
+  color: #055A5B;
+  border-radius: 0.313rem;
+  /* Text */
+  font-size: 0.625rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 48rem) {
+  .enter-key-tile {
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+  }
+}
+
+.correct {
+  background-color: #53bd86;
+  color: #E6E6E6;
+  border-color: white;
+}
+
+.present {
+  background-color: #C7A748;
+  color: #E6E6E6;
+  border-color: red;
+}
+
+.absent {
+  background-color: #787C7E;
+  color: #E6E6E6;
+  border-color: white;
+}
+
+.dark-mode {
+  background-color: #055A5B;
+  color: #E6E6E6;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+}/*# sourceMappingURL=wordle.css.map */
